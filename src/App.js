@@ -4,7 +4,6 @@ import Home from './components/Home/Home';
 import CheckOut from './components/CheckOut/CheckOut';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Login from './components/Login/Login';
-import Payment from './components/Payment/Payment';
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
             <Route path="/" element={<><Header/><Home/></>} />
             <Route path="/checkout" element={<><Header/><CheckOut/></>} />
             <Route path="/login" element={<Login/>} />
-            <Route path="/payment" element={<Payment/>} />
         </Routes>
       </div>
     </Router>

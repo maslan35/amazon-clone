@@ -29,7 +29,7 @@ const Subtotal = () => {
                
             )}
         />
-        <button onClick={(e) =>navigate("/payment") } >Proceed to Checkout</button>
+        <button>Proceed to Checkout</button>
     </div>
   )
 }
