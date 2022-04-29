@@ -3,11 +3,8 @@ import { useStateValue } from '../../StateProvider';
 import './Subtotal.css'
 import NumberFormat from 'react-number-format';
 import { getBasketTotal } from '../../reducer';
-import { useNavigate   } from 'react-router-dom'
-
 const Subtotal = () => {
-    const navigate = useNavigate();
-    const [{basket}, dispatch] = useStateValue();
+    const [{basket},] = useStateValue();
 
   return (
     <div className='subtotal'>
